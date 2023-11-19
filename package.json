@@ -7,7 +7,7 @@
   "scripts": {
     "built": "npx tsc",
     "dev": "nodemon index.ts",
-    "start": "node ./dist/server.js"
+    "start": "npm run build && node ./dist/index.js",
   },
   "keywords": [],
   "author": "",
