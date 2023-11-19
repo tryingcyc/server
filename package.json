@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "built": "npx tsc",
+    "build": "npx tsc",
     "dev": "nodemon index.ts",
-    "start": "npm run build && node ./dist/index.js",
+    "start": "node ./dist/server.js"
   },
   "keywords": [],
   "author": "",
